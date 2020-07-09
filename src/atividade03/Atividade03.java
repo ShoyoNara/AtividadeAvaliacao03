@@ -23,7 +23,7 @@ public class Atividade03 {
      */
     public static void main(String[] args) {
         
-        double ValorP, ValorPFinal, Desconto;
+        double ValorP, ValorPFinal;
         int CodigoP;
         
        
