@@ -35,14 +35,14 @@ public class Atividade03 {
         
         if(CodigoP == 1){
             
-            ValorPFinal = ValorP - 0.15;
+            ValorPFinal = ValorP * 0.85;
             
             JOptionPane.showMessageDialog(null, "O Código inserido foi 1\nentão você recebera 15% de deconto\n "
                     + "e o Valor Final do produto a ser pago sera de: R$"+ValorPFinal);
             
         }else if(CodigoP == 2){
             
-            ValorPFinal = ValorP - 0.1;
+            ValorPFinal = ValorP * 0.90;
             
             JOptionPane.showMessageDialog(null, "O Código inserido foi 2\nentão você recebera 10% de deconto\n"
                     + "e o Valor Final do produto a ser pago sera de: R$"+ValorPFinal);
@@ -55,7 +55,7 @@ public class Atividade03 {
         }else if(CodigoP == 4){
             
             
-            ValorPFinal = ValorP + 0.1;
+            ValorPFinal = ValorP * 1.1;
             
             JOptionPane.showMessageDialog(null, "O Código inserido foi 4\nentão você tera um Juros de 10% "
                     + "Pelo Produto\ne o Valor Final do produto a ser pago sera de: R$"+ValorPFinal);
